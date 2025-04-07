@@ -1,122 +1,121 @@
 /* Reset e fonte */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  
-  /* Cabeçalho */
-  header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-  }
-  
-  header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  /* Hero */
-  .hero {
-    background-color: #f44336;
-    color: #fff;
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  .hero .btn {
-    display: inline-block;
-    margin-top: 20px;
-    background-color: #fff;
-    color: #f44336;
-    padding: 12px 24px;
-    font-weight: bold;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: background 0.3s;
-  }
-  
-  .hero .btn:hover {
-    background-color: #e6e6e6;
-  }
-  
-  /* Seções */
-  section {
-    padding: 60px 20px;
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-    font-size: 2rem;
-    color: #f44336;
-  }
-  
-  .servicos .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-  }
-  
-  .card {
-    background: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  
-  /* Contato */
-  .contato a {
-    color: #f44336;
-    text-decoration: underline;
-  }
-  
-  .btn-whatsapp {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 14px 28px;
-    background-color: #e60000;
-    color: #fff;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-whatsapp:hover {
-    background-color: #cc0000;
-  }
-  
-  /* Rodapé */
-  footer {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  background-color: #e63929;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #e63929;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #e6e6e6;
+}
+
+/* Seções */
+section {
+  padding: 60px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #e63929;
+}
+
+.servicos .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Contato */
+.contato a {
+  color: #e63929;
+  text-decoration: underline;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background-color: #e60000;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #cc0000;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
