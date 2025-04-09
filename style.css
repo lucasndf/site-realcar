@@ -6,17 +6,39 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.6;
   background-color: #e53935; /* vermelho vivo */
   color: white;
   text-align: center;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 40px 20px;
 }
 
-/* HERO SECTION */
+/* Header */
+header {
+  background: white;
+  padding: 20px 0;
+}
+
+header a {
+  color: #1E3A8A;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+header a:hover {
+  color: #e53935;
+}
+
+/* HERO */
 .hero h2 {
-  background-color: #1E3A8A; /* azul escuro */
+  background-color: #1E3A8A;
   color: white;
   padding: 15px 30px;
   border-radius: 10px;
@@ -36,8 +58,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* BOTÃO */
-.hero button {
+.btn {
   background-color: white;
   color: #1E3A8A;
   border: none;
@@ -46,16 +67,58 @@ body {
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
   transition: background 0.3s, color 0.3s;
 }
 
-.hero button:hover {
+.btn:hover {
   background-color: #1E3A8A;
   color: white;
 }
 
+/* Seções */
+.servicos, .sobre, .contato {
+  background-color: white;
+  color: #1E3A8A;
+  padding: 60px 20px;
+}
+
+.servicos h2, .sobre h2, .contato h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #e6e6e6;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1E3A8A;
+  padding: 20px;
+  color: white;
+  font-size: 0.9rem;
+}
+
 /* Responsivo */
 @media (max-width: 600px) {
+  .grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .hero h2 {
     font-size: 1.5rem;
   }
@@ -64,7 +127,8 @@ body {
     font-size: 1rem;
   }
 
-  .hero button {
+  .btn {
     font-size: 0.95rem;
     padding: 10px 20px;
   }
+}
