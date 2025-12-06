@@ -54,7 +54,6 @@ Informações de direitos autorais.
 
 🚀 Possíveis Melhorias Futuras
 
-Se você quiser evoluir o site, aqui estão algumas ideias:
 🔧 Adicionar galeria de fotos dos serviços
 ⭐ Criar página “Antes e Depois”
 💬 Adicionar avaliações de clientes
